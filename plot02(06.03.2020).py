@@ -171,7 +171,7 @@ plt.ylabel ('Water Flux(Microm/s)')
 plt.title('G')
 plt.legend(loc = 'best')
 
-X, Y10 = plot_func.smooth_func(X,Y10,5,1,kind='linear')
+# X, Y10 = plot_func.smooth_func(X,Y10,5,1,kind='linear')
 plt.subplot(428)
 plt.plot(X, Y10, 'k',  label = 'v_cell')
 
